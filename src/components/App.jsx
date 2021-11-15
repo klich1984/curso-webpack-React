@@ -1,5 +1,12 @@
-import React from 'react';
+import React from 'react'
 
-const App = () => <h1>Hello React!!!</h1>
+const App = () => {
+	return (
+		<div>
+			<h1>Hola React!!!</h1>
+			<p>Primera app con react y webpack</p>
+		</div>
+	)
+}
 
-export default App;
+export default App
